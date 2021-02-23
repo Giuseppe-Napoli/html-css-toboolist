@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #F6F8F9;
+}
+
+header{
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+}
+
+.logo{
+  margin-left: 15px;
+}
+
+h1{
+  display: inline-block;
+  font-size: 35px;
+  vertical-align: 15px;
+}
+
+nav, .list{
+  background-color: white;
+  padding: 15px;
+}
+
+.input{
+  margin-left: 30px;
+}
+
+.input button{
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: white;
+  color: lightgray;
+  font-size: 12px;
+}
+
+#Task{
+  background-color:#47ADF1 ;
+  color: white;
+}
+
+.list{
+  margin-top: 3px;
+}
+
+.paragrafo{
+  padding: 25px;
+}
+
+.title{
+  margin-bottom: 7px;
+}
+.title:before{
+  content: "\25BE";
+}
+
+.paragrafo p{
+  margin-bottom: 15px;
+}
+
+.text::before{
+  content: "\2713";
+  color: #64C0A9;
+  font-size: 12px;
+  border: 1px solid rgb(100, 192, 169) ;
+  border-radius: 50% ;
+  margin-right: 7px;
+  width: 15px;
+  height: 17px;
+  display: inline-block;
+  text-align: center;
+}
+
+.cross::before{
+  content: "\2717";
+  color: red;
+  font-size: 12px;
+  border: 1px solid red ;
+  border-radius: 50% ;
+  margin-right: 7px;
+  width: 15px;
+  height: 17px;
+  display: inline-block;
+  text-align: center;
+}
+
+.paragrafo span{
+  display: inline-block;
+  font-size: 10px;
+  color: white;
+  border-radius: 10px;
+  width: 57px;
+  height: 22px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.edit{
+  background-color: #47ADF1 ;
+}
+
+.Goals{
+  background-color: #9C72E4;
+}
+
+.Recruiting{
+  background-color: #64C0A9 ;
+}
+
+.mobile{
+  background-color: orange;
+}
+
+.web{
+  background-color: #D863A1;
+}
+
+.salles{
+  background-color:#B0C926 ;
+}
